@@ -1,10 +1,10 @@
 {
-  "name": "cra-template-rb",
-  "description": "The official React Boilerplate template for Create React App",
+  "name": "react-spin-wheel",
+  "description": "The React spin wheel",
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-boilerplate/react-boilerplate-cra-template.git"
+    "url": "https://github.com/Siddhant-Goswami/react-spin-wheel.git"
   },
   "license": "MIT",
   "engines": {
@@ -12,7 +12,7 @@
     "node": ">=10.13.0"
   },
   "bugs": {
-    "url": "https://github.com/react-boilerplate/react-boilerplate-cra-template/issues"
+    "url": "https://github.com/Siddhant-Goswami/react-spin-wheel/issues"
   },
   "main": "template.json",
   "files": [
@@ -44,7 +44,6 @@
     "lint:fix": "npm run eslint -- --fix src",
     "lint:css": "stylelint src/**/*.css",
     "generate": "cross-env TS_NODE_PROJECT='./internals/ts-node.tsconfig.json' plop --plopfile internals/generators/plopfile.ts",
-    "cleanAndSetup": "ts-node --project=./internals/ts-node.tsconfig.json ./internals/scripts/clean.ts",
     "prettify": "prettier --write",
     "// ---TESTING TEMPLATE---": "",
     "verify-startingTemplate-changes": "ts-node --project=./internals/ts-node.tsconfig.json ./internals/scripts/verify-startingTemplate-changes.ts",

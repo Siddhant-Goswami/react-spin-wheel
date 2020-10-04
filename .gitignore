@@ -16,7 +16,7 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# boilerplate internals
+# internals
 generated-cra-app
 .cra-template-rb
 template
