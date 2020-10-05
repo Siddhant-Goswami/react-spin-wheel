@@ -1,27 +1,25 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
+import wheelItems from './WheelItems';
 import { Wheel } from 'app/components/Wheel/Loadable';
+import { Content } from 'app/components/Content/Loadable';
+import { PowerBar } from 'app/components/PowerBar/Loadable';
 
 export function HomePage() {
-  const wheelItems = [
-    'Rs 50',
-    'Better luck next time',
-    '2X Savings',
-    'Rs 100 Cashback',
-    'Rs 20',
-    'Rs 50',
-    '1.5X Savings',
-    '2X Savings',
-  ];
+  const renderHeader = ()=>{
+    return <Helmet>
+    <title>Home Page</title>
+    <meta name="description" content="Spin wheel homepage" />
+  </Helmet>
+  }
   return (
     <>
-      <Helmet>
-        <title>Home Page</title>
-        <meta name="description" content="A Boilerplate application homepage" />
-      </Helmet>
-      <div>
+      {renderHeader()}
+      <div style={{ padding: '25px 0' }}>
         <Wheel items={wheelItems} />
+        <PowerBar/>
+        <Content/>
       </div>
     </>
   );
