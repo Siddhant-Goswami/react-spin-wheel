@@ -23,7 +23,6 @@
   padding: 3px;
   margin: auto;
   background-color: var(--neutral-color);
-  /* border: solid var(--wheel-color) 3px; */
   border-radius: 50%;
   user-select: none;
 }
@@ -40,12 +39,6 @@
   z-index: 2;
   /* border: solid transparent 20px; */
   /* border-left-width: 0; */
-  width: 32px;
-  height: 41px;
-  background: url('arrow.svg') no-repeat;
-  background-size: 32px;
-  top: -5%;
-  left: 47%;
 }
 
 .wheel-container::before {
@@ -84,15 +77,21 @@
 .wheel::after {
   display: block;
   position: absolute;
-  content: '';
-  background-color: var(--neutral-color);
-  width: 25px;
-  height: 25px;
+  content: 'Spin';
+  background-color:rgba(255, 221, 161, 1);
+  color:rgba(0, 0, 0, 0.87);
+  width: 65px;
+  height: 65px;
   z-index: 2;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+  padding-top: 18px;
+  font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
 }
 
 .wheel-item {
