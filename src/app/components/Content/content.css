@@ -1,0 +1,28 @@
+.spin-message-div{
+    background: #fff;
+    border-radius:20px;
+    max-width: 448px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.spin-message-div h1{
+    padding: 10px 30px 5px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+
+}   
+.spin-message-div p{
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.question{
+    text-align: center;
+}
+.question span{
+    color: #FBAF03;
+}
