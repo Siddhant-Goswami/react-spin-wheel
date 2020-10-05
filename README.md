@@ -2,6 +2,10 @@
 
 A PWA that allows the user to spin by tapping ‘Spin’and get the reward mentioned on the segment of wheel where it stops. Alternatively, you can hold and rotate the wheel anti-clockwise and increase the power of rotation which is visible in the arrow below the wheel and once you leave it after it crosses the black mark, it rotates with higher power clockwise
 
+Demo: https://react-spin-wheel.web.app/
+
+Google Sheets: https://docs.google.com/spreadsheets/d/1_U-hmpayIutFe1RCSQW8GMusl9S1-QcxYrSNFGAVaXw/edit?usp=sharing
+
 ## Installation & setup
 
 Make sure that you have Node.js v8.15.1 and npm v5 or above installed.
